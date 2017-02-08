@@ -1,3 +1,7 @@
+body{
+	padding:4%;
+	
+}
 *{
 	margin:0px;
 	padding:0px;
@@ -5,7 +9,7 @@
 	font-size:11px;
 }
 div{
-	padding:2%;	
+	padding:1%;	
 	position:relative;
 	border: 3px solid Azure;
 	margin-top:4%;
@@ -16,7 +20,7 @@ div > section{
 }
 header{
 	
-	margin:3% 0%;
+	margin:2% 0%;
 	text-align:center;
 	
 }
@@ -77,7 +81,7 @@ section{
 		width:25%;
 	}
 	.col-lg-4{
-		width:33%;
+		width:31.33%;
 	}
 	.col-lg-5{
 		width:41.66%;
@@ -104,8 +108,11 @@ section{
 		width:100%;
 	}	
 	div{
-		margin:0% 4%;
+		margin:0% 1%;
 		
+	}
+	body{
+		padding:4% 0.5%;
 	}
 	
 }
@@ -132,7 +139,7 @@ section{
 		width:41.66%;
 	}
 	.col-md-6{
-		width:50.00%;
+		width:48.88%;
 	}
 	.col-md-7{
 		width:58.33%;
@@ -152,7 +159,7 @@ section{
 	.col-md-12{
 		width:100%;
 	}	
-	div{
+	/* div{
 		margin-left:0px;
 		margin-right:0px;
 		margin-bottom:0px;
@@ -168,7 +175,15 @@ section{
 	}
 	div#sushi-tag{
 		margin-left:6%;
+	} */
+	div#sushi-tag{
+		margin-bottom:2%;
+		margin-top:2%;
 	}
+	div#beef-tag{
+		margin-left:2%;		
+	}
+	
 }
 /************** Mobile View **********/
 @media(max-width:767px){
@@ -213,9 +228,8 @@ section{
 	.col-sm-12{
 		width:100%;
 	}	
-	div{
-		margin-left:0px;
-		margin 
+	div#sushi-tag{
+		margin-bottom:2%;
 	}
 }
 
