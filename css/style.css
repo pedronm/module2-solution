@@ -1,5 +1,5 @@
 body{
-	padding:4%;
+	padding:4% 0.5%;
 	
 }
 *{
@@ -11,8 +11,8 @@ body{
 div{
 	padding:1%;	
 	position:relative;
-	border: 3px solid Azure;
-	margin-top:4%;
+	border: 3px solid Black;
+	margin:0 1%;
 }
 div > section{
 	margin-top:6%;
@@ -59,6 +59,7 @@ section{
 	
 #beef-tag h2{
 	background-color:FireBrick;
+	color:white;
 	
 }
 #sushi-tag h2{
@@ -66,7 +67,7 @@ section{
 }
 
 /*************** Browser View ***********/
-@media(min-width:992px){
+/*@media(min-width:992px) i've took out this one, it wars really unecessary!*/
 	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5, .col-lg-6, .col-lg-7,
 	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
 		float:left;		
@@ -107,17 +108,9 @@ section{
 	.col-lg-12{
 		width:100%;
 	}	
-	div{
-		margin:0% 1%;
-		
-	}
-	body{
-		padding:4% 0.5%;
-	}
-	
-}
+
 /************** Tablet View **********/
-@media(min-width:768px) and (max-width:991px){
+@media(min-width:768px) and (max-width:990px){
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5, .col-md-6, .col-md-7,
 	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 		float:left;
@@ -159,12 +152,12 @@ section{
 	.col-md-12{
 		width:100%;
 	}	
-	/* div{
+	div{
 		margin-left:0px;
 		margin-right:0px;
 		margin-bottom:0px;
 		
-	}
+	}/*
 	div#chicken-tag, div#beef-tag{
 		padding-left:4%;
 		margin-left:6%;
