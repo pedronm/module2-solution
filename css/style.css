@@ -221,8 +221,8 @@ section{
 	.col-sm-12{
 		width:100%;
 	}	
-	div#sushi-tag{
-		margin-bottom:2%;
+	div{
+		margin:2% 0%;
 	}
 }
 
